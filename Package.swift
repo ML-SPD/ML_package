@@ -16,8 +16,8 @@ let package = Package(
     ],
     dependencies: [
         // 添加依賴
-        .package(url: "https://github.com/crelies/AdvancedList.git", from: "1.4.0"),
-        .package(url: "https://github.com/spacenation/swiftui-sliders.git", from: "2.0.0"),
+        .package(url: "https://github.com/crelies/AdvancedList.git", from: "8.0.0"),
+        .package(url: "https://github.com/spacenation/swiftui-sliders.git", from: "2.1.0"),
     ],
     targets: [
         .target(
