@@ -24,7 +24,7 @@ let package = Package(
             name: "ML_package",
             dependencies: [
                 "AdvancedList",
-                "swiftui-sliders"
+                .product(name: "Sliders", package: "swiftui-sliders")
             ],
             path: "Sources"
         ),
