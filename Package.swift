@@ -30,7 +30,7 @@ let package = Package(
                 "AdvancedList",
                 .product(name: "Sliders", package: "swiftui-sliders"),
                 .product(name: "CarBode", package: "CarBode-Barcode-Scanner-For-SwiftUI"),
-                "DGCharts",
+                .product(name: "DGCharts", package: "Charts")
             ],
             path: "Sources"
         ),
