@@ -19,8 +19,8 @@ let package = Package(
         .package(url: "https://github.com/crelies/AdvancedList.git", from: "8.0.0"),
         .package(url: "https://github.com/spacenation/swiftui-sliders.git", from: "2.1.0"),
         .package(url: "https://github.com/heart/CarBode-Barcode-Scanner-For-SwiftUI", from: "2.2.4"),        
-//        .package(url: "https://github.com/heart/CarBode-Barcode-Scanner-For-SwiftUI", branch: "main"),
-		.package(url: "https://github.com/danielgindi/Charts.git", from: "5.1.0"),        
+	    // .package(url: "https://github.com/heart/CarBode-Barcode-Scanner-For-SwiftUI", branch: "main"),
+	    // .package(url: "https://github.com/danielgindi/Charts.git", from: "5.1.0"),        
     ],
     targets: [
         .target(
@@ -29,8 +29,7 @@ let package = Package(
             dependencies: [
                 "AdvancedList",
                 .product(name: "Sliders", package: "swiftui-sliders"),
-                .product(name: "CarBode", package: "CarBode-Barcode-Scanner-For-SwiftUI"),
-                .product(name: "DGCharts", package: "Charts")
+                .product(name: "CarBode", package: "CarBode-Barcode-Scanner-For-SwiftUI")                
             ],
             path: "Sources"
         ),
